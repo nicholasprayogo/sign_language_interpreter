@@ -1,4 +1,4 @@
-# sign_language_interpreter
+# Sign Language Interpreter
 This project uses convolutional neural networks to train a model that could accurately interpret sign language alphabets.
 
 ## Setup
