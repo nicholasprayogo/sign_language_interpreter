@@ -25,7 +25,7 @@ network = fully_connected(network, 24, activation='softmax')
 network = regression(network, optimizer='sgd', loss='categorical_crossentropy',learning_rate=0.01)
 #always remember to test different optimizers, set learning rates accordingly too
 model = DNN(network, tensorboard_verbose=3, checkpoint_path='sign_language_model.ckpt')
-model.load('sign-language-classifier.tfl', weights_only=True)
+model.load('ckpts/sign-language-classifier.tfl', weights_only=True)
 
 while True:
     #ret stands for retrieve (cap.retrieve()), frame is the returned videcapture.grabbed

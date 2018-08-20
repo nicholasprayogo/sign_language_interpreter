@@ -125,7 +125,7 @@ def train():
     model=build_model()
     model.fit(x_train, y_train, n_epoch=10, shuffle=True, validation_set=(x_test, y_test),show_metric=True, batch_size=20)
     # feed dict { 'inputs': x_train } { 'targets': y_train }
-    model.save("sign-language-classifier.tfl")
+    model.save("ckpts/sign-language-classifier.tfl")
     return(model)
 
 visualize()
