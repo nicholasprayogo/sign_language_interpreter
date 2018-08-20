@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/nick/Code/MachineLearning/deeplearning/asl_alphabet_classifier/sign-language-classifier.tfl"
+all_model_checkpoint_paths: "/Users/nick/Code/MachineLearning/deeplearning/asl_alphabet_classifier/sign-language-classifier.tfl"
